@@ -22,7 +22,7 @@ provides:
     - name: "speckit.cleanup.run"
       file: "commands/cleanup.md"
       description: "Review implementation, fix small issues, identify tech debt"
-      aliases: ["speckit.cleanup.run"]
+      aliases: ["speckit.cleanup.cleanup"]
 
   config:
     - name: "cleanup-config.yml"
