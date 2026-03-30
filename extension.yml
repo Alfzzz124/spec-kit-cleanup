@@ -3,7 +3,7 @@ schema_version: "1.0"
 extension:
   id: "cleanup"
   name: "Cleanup Extension"
-  version: "1.0.0"
+  version: "1.0.1"
   description: "Post-implementation quality gate that reviews changes, fixes small issues (scout rule), creates tasks for medium issues, and generates analysis for large issues."
   author: "dsrednicki"
   repository: "https://github.com/dsrednicki/spec-kit-cleanup"
@@ -22,7 +22,7 @@ provides:
     - name: "speckit.cleanup.run"
       file: "commands/cleanup.md"
       description: "Review implementation, fix small issues, identify tech debt"
-      aliases: ["speckit.cleanup"]
+      aliases: ["speckit.cleanup.run"]
 
   config:
     - name: "cleanup-config.yml"
